@@ -37,24 +37,25 @@
 .failures-title {
     display: flex;
     gap: 90px;
-    
+
 }
 
-.failures-detail{
+.failures-detail {
     padding-top: 300px;
     padding-right: 320px;
     padding-left: 90px;
-    
+
 }
-.failures-detail h1{
+
+.failures-detail h1 {
     color: #151414;
     font-weight: 900;
     font-size: 40px;
-   
+
 }
 
-.failures-detail ul{
-    list-style-image: url('./sakib/right\ symbol1.JPG')
+.failures-detail ul {
+    list-style-image: url('./icons/right\ symbol1.JPG')
 }
 
 .failures-img {
@@ -69,4 +70,72 @@
     height: 400px;
     margin-left: 250px;
     margin-top: 110px;
+}
+
+/* section my-plans */
+
+.my-plans h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    padding-top: 135px;
+    padding-bottom: 50px;
+}
+
+.I-want {
+    display: flex;
+    gap: 180px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-description {
+    color: #737272;
+}
+
+.my-plans{
+    padding-bottom: 130px;
+}
+
+/* bonus section style */
+
+.about {
+    background: linear-gradient(to right, #005FAC, #3f51b503), url('./sakib/watch.png');
+    height: 300px;
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-right: 600px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 120vh;
+
+}
+
+.always {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+
+.about button {
+    color: #005FAC;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px 25px 20px 25px;
 }
