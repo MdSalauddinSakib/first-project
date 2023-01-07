@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* section 1 */
+.header {
+    text-align: right;
+    background-image: url('./banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+
+}
+
+.all-thinks {
+    padding: 215px 230px 32px 845px;
+    color: #FFFFFF;
+}
+
+.all-thinks h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.all-thinks button {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+    padding: 20px 25px 20px 25px;
+}
+
+/* failures detail */
+
+.failures-title {
+    display: flex;
+    gap: 90px;
+    
+}
+
+.failures-detail{
+    padding-top: 300px;
+    padding-right: 320px;
+    padding-left: 90px;
+    
+}
+.failures-detail h1{
+    color: #151414;
+    font-weight: 900;
+    font-size: 40px;
+   
+}
+
+.failures-detail ul{
+    list-style-image: url('./sakib/right\ symbol1.JPG')
+}
+
+.failures-img {
+    background-image: url('./banner/header_bg.png');
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-top: 130px;
+}
+
+.failures-img img {
+    width: 400px;
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 110px;
+}
