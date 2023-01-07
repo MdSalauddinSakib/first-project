@@ -99,7 +99,7 @@
     color: #737272;
 }
 
-.my-plans{
+.my-plans {
     padding-bottom: 130px;
 }
 
@@ -138,4 +138,64 @@
     font-weight: 800;
     font-size: 20px;
     padding: 20px 25px 20px 25px;
+}
+
+/* footer style */
+
+.contact {
+    display: flex;
+    gap: 300px;
+    background: #0B0D17;
+    padding: 130px 0px;
+}
+
+.contact-phone-email {
+    color: #F8F8F8;
+    margin-left: 230px;
+}
+
+.contact-phone-email h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-phone-email p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.subscribe {
+    color: #F8F8F8;
+    margin-right: 230px;
+
+}
+
+.subscribe p {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.contact input[type="email"] {
+    background-color: #151414;
+    padding: 15px;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 8px solid #ffffff;
+}
+
+.subscribe .btn-subscribe {
+    margin-top: 15px;
+    padding: 20px 30px;
+    background: #005FAC;
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+
 }
